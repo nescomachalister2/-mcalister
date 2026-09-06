@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Skynet</string>
+    <string name="target_url" translatable="false">https://docs.google.com/spreadsheets/d/1m-dc7SUGuL-j9lUCh3WskPv9nM1v4owQIcm1zri6pNo/edit?gid=1847933703#gid=1847933703</string>
+    <string name="no_connection">Pas de connexion internet. Tirez pour réessayer.</string>
+</resources>

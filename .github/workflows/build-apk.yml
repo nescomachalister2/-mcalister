@@ -25,8 +25,8 @@ jobs:
         with:
           gradle-version: 8.14.3
 
-      - name: Show projects (debug)
-        run: gradle projects --stacktrace
+      - name: List app tasks (debug)
+        run: gradle :app:tasks --all --stacktrace
 
       - name: Build debug APK
         run: gradle :app:assembleDebug --no-daemon --stacktrace
